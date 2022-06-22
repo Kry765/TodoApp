@@ -1,0 +1,48 @@
+.react-icons {
+	font-size: 36px;
+}
+
+.header {
+	background-color: #53dd6c;
+	color: #fff;
+}
+
+.btn-add-task {
+	background: none;
+	text-align: center;
+}
+
+.footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	background-color: #53dd6c;
+	color: #fff;
+}
+
+button{
+	border: none;
+	background-color: #fff;
+}
+
+.btn-main {
+	border: none;
+	border-radius: 10px;
+	padding: 10px;
+	border-color: rgb(184, 184, 184);
+	transition: color 0.3s;
+}
+
+.btn-add:hover {
+	border: none;
+	background-color: #fff;
+	color: #53dd6c;
+}
+
+.modal-box{
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding: 10px;
+}
