@@ -2,8 +2,8 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import { FaClipboardList } from 'react-icons/fa'
 import 'bootstrap/dist/css/bootstrap.min.css'
-import '../scss/style.scss'
 import '../scss/login.scss'
+import '../scss/style.scss'
 
 export default function Login() {
 	return (
@@ -16,8 +16,8 @@ export default function Login() {
 					</p>
 					<div className='flex-center flex-column'>
 						<h1 className='h1-color'>TodoList</h1>
-						<input type='text' className='input-text m-3' placeholder='Email' />
-						<input type='password' className='input-text m-3' placeholder='password' />
+						<input type='text' className='input-text m-3 bg-light' placeholder='Email' />
+						<input type='password' className='input-text m-3 bg-light' placeholder='password' />
 						<div className='flex-center align-items-center flex-column'>
 								<Link to='/Main' className='sing-in-btn m-3 reset-link text-center'>
 									Sing in
