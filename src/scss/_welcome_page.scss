@@ -1,63 +1,21 @@
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
-
-.shadow-background {
-	background-image: url('../picture/todo-lists-desktop.jpg');
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: center;
-	width: 100vw;
-	height: 100vh;
-}
-
-.opacity-background {
-	position: absolute;
-	width: 100vw;
-	height: 100vh;
-	background-color: rgba(0, 0, 0, 0.8);
-}
-
-.section-welcome-user{
+.section-welcome-user {
+	position: relative;
 	color: #fff;
 	text-align: center;
-	h1,span,button{
+	h1,
+	span,
+	.reset-link {
 		z-index: 3;
-
 	}
 }
 
-.get-start{
-	background-color: green;
-	color: #fff;
-	text-decoration: none;
-	border-radius: 15px;
-	width: 30%;
-	height: 10%;
-	padding: 5px;
-}
-
-.get-start:hover{
-	color: black;
-}
-
-.sing-in-desktop{
-	position: absolute;
-	right: 0;
-	top: 0;
-	padding: 25px;
-	text-decoration: none;
+.copyright {
+	position: relative;
 	color: #fff;
 }
 
-.sing-in-desktop:hover{
-	color: green;
-}
-
-@media(max-width: 768px){
-	.shadow-background{
+@media (max-width: 768px) {
+	.shadow-background {
 		background-image: url('../picture/todo-lists-mobile.jpg');
 		background-size: cover;
 		background-repeat: no-repeat;

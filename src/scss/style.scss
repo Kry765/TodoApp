@@ -1,16 +1,30 @@
 @import './reset.scss';
-$colors-h: #36b14d;
-$colors-input-text: #C0B7B1;
+$colors-h: #fff;
+$colors-input-text: #c0b7b1;
 $btn-radius: 15px;
-$button-color: #53dd6c;
+$button-color: green;
 
-.test{
-	margin: 50% 0;
+.shadow-background {
+	position: relative;
+	background-image: url('../picture/todo-lists-desktop.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 100vw;
+	height: 100vh;
 }
 
-.reset-link {
-	text-decoration: none;
-	color: #fff;
+.opacity-background {
+	position: absolute;
+	width: 100vw;
+	height: 100vh;
+	background-color: rgba(0, 0, 0, 0.8);
+}
+
+
+.flex-center {
+	display: flex;
+	justify-content: center;
 }
 
 .h1-color {
@@ -25,18 +39,32 @@ $button-color: #53dd6c;
 	border: 1px solid #000;
 }
 
-.sing-in-btn {
+.reset-link {
+	text-decoration: none;
+	color: $colors-h;
+	background-color: $button-color;
 	border-radius: $btn-radius;
-	border: none;
-	color: #fff;
-	font-weight: bold;
-	width: 50%;
 	padding: 10px 20px;
-	background-color: $colors-h;
+	margin: 10px;
+	text-transform: uppercase;
+	z-index: 1;
 }
 
+.reset-link:hover {
+	color: $colors-h;
+	background-color: #383d3b;
+}
 
-.flex-center {
-	display: flex;
-	justify-content: center;
+.sing-in-desktop {
+	position: absolute;
+	right: 0;
+	top: 0;
+	padding: 25px;
+	text-decoration: none;
+	color: #fff;
+	z-index: 3;
+}
+
+.sing-in-desktop:hover {
+	color: green;
 }

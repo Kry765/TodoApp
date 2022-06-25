@@ -2,7 +2,8 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import { FaClipboardList } from 'react-icons/fa'
 import 'bootstrap/dist/css/bootstrap.min.css'
-import '../scss/login.scss'
+import '../scss/_login.scss'
+import '../scss/_reset.scss'
 import '../scss/style.scss'
 
 export default function Login() {
@@ -24,7 +25,7 @@ export default function Login() {
 								</Link>
 							<div className='hr-line'></div>
 								<Link to='/Register' className='reset-link'>
-									Register
+									Create Accound
 								</Link>
 								<div className='copyright w-100 text-center'>
 								<div className='hr-line w-100 mt-5'></div>
